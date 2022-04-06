@@ -79,6 +79,7 @@ nav {
     align-items: center;
     width: 30%;
     transform: translatex(100%);
+    transition: transform 0.5s ease-in;
   }
   .nav-links li{
     opacity: 0;
