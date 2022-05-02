@@ -5,18 +5,19 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+ /* navbar */
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: rgb(255, 153, 170);
+  background-color: black;
   font-family: 'Quicksand', sans-serif;
 }
 
+/* logo */
 .logo {
-  color: rgb(0, 0, 0);
+  color: rgb(247, 200, 14);
   font-size: 20px;
   text-decoration: none;
   
@@ -24,9 +25,10 @@ nav {
 
 .logo a{
   text-decoration: none;
-  color:rgb(0, 0, 0)
+  color:rgb(247, 200, 14)
 }
 
+/* nav links */
 .nav-links {
   display: flex;
   justify-content: space-around;
@@ -34,7 +36,7 @@ nav {
 }
 
 .nav-links a{
-  color: rgb(0, 0, 0);
+  color: rgb(247, 200, 14);
   text-decoration: none;
   letter-spacing: 2px;
   font-size: 20px;
@@ -45,11 +47,12 @@ nav {
   list-style: none;
 }
 
+/* burger menu */
 .burger-menu div{
   width: 25px;
   height: 3px;
   margin: 5px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(247, 200, 14);
   transition: all 0.3s ease;
 }
 
@@ -58,12 +61,15 @@ nav {
   cursor: pointer;
 }
 
+/* helps letters in navbar not to overlap*/
+
 @media screen and (max-width: 1113px){
   .nav-links{
     width: 60%;
   }
 }
 
+ /* makes app responsive */
 @media screen and (max-width: 860px){
   body{
     overflow-x: hidden;
@@ -72,8 +78,8 @@ nav {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
-    background-color: pink;
+    top: 7.2vh;
+    background-color: rgba(8, 8, 8, 0.801);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,6 +109,7 @@ nav {
   }
 }
 
+/* rotates lines into an x */
 .toggle .line1{
   transform: rotate(-45deg) translate(-5px,6px);
   
@@ -115,16 +122,17 @@ nav {
   
 }
 
+/* banner */
 #title {
-  color: rgb(255, 153, 170);
+  color: rgb(247, 200, 14);
   font-size: xxx-large;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   padding: 60px;
-  margin-top: 0px;
+  margin: -6px;
   background-image: url("https://images.pexels.com/photos/1666816/pexels-photo-1666816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  background-size: 1200px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  max-height: 100%;
 }
