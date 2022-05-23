@@ -8,8 +8,9 @@
 
 body {
   min-height: 100%;
-  display: grid;
-  grid: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
  /* navbar */
@@ -135,7 +136,7 @@ nav {
   font-size: xxx-large;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  padding: 60px;
+  padding: 5vw;
   margin: -6px;
   background-image: url("https://images.pexels.com/photos/1666816/pexels-photo-1666816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-repeat: no-repeat;
@@ -163,4 +164,8 @@ nav {
   height: 10vh;
   width: 10vw;
   color:rgb(247, 200, 14);
+}
+
+.content {
+  flex-grow: 1;
 }
