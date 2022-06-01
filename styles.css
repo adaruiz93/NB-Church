@@ -252,12 +252,57 @@ iframe {
   height: 80vh;
 }
 
+.img2_title {
+  text-align: center;
+}
+
 /* stops image scrolling when responsive */
-@media screen and (max-width: 1113px){
-  .image2, .img-about {
+@media screen and (max-width: 860px){
+  .img-about {
     background-size: 100%;
     background-attachment:local;
     width: 100vw;
-    height: 40vh; 
+    height: 50vh; 
+  }
+  .image2 {
+    background-size: 100%;
+    background-attachment:local;
+    width: 100vw;
+    height: 50vh;
+  }
+}
+
+/* giving img banner */
+.giv_img {
+  background-image: url("https://images.pexels.com/photos/460295/pexels-photo-460295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  height: 90vh;
+  text-align: center;
+  color:rgb(247, 200, 14);
+  font-size: 3vh;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  padding: 8vh;
+  background-attachment: fixed;
+}
+
+.giv_lorem {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3vh;
+  text-align: center;
+  padding: 2vh;
+  padding-bottom: 10vh;
+
+}
+
+@media screen and (max-width: 860px){
+  .giv_img {
+    background-size: 100%;
+    background-attachment:local;
+    width: 100vw;
+    height: 50vh; 
+ 
   }
 }
