@@ -287,7 +287,7 @@ iframe {
   padding: 8vh;
   background-attachment: fixed;
 }
-
+ /* giving text */
 .giv_lorem {
   font-family: 'Quicksand', sans-serif;
   font-size: 3vh;
@@ -297,12 +297,12 @@ iframe {
 
 }
 
+/* stops image scrolling when responsive */
 @media screen and (max-width: 860px){
   .giv_img {
     background-size: 100%;
     background-attachment:local;
     width: 100vw;
     height: 50vh; 
- 
   }
 }
