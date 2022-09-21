@@ -306,3 +306,85 @@ iframe {
     height: 50vh; 
   }
 }
+
+.get-inv {
+  font-family: 'Quicksand', sans-serif;
+  opacity: 0.6;
+  text-align: center;
+  position: absolute;
+  font-size: 6vh;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.inv-img {
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5vh;
+}
+
+.inv-lorem {
+  text-align: center;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-bottom: 3vh;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  display: inline-block;
+ 
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: rgb(247, 200, 14);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.join {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 5vh;
+  text-align: center;
+  padding: 2vh;
+}
