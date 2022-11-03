@@ -484,6 +484,13 @@ label {
   background-color: rgb(247, 200, 14);
 }
 
+/* location */
+.location {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  padding: 1vh;
+  font-size: 6vh;
+}
 
 
 
